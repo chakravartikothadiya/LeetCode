@@ -16,7 +16,7 @@ class Solution {
         {
             if(set.contains(s.charAt(r)))
             {
-                //If it already contains then will go 
+                //If it already contains then will go on iterating the left pointer till we find the same element. And then we will inc left by 1 and start the similar process form there
                 while(s.charAt(l)!=s.charAt(r))
                 {
                     set.remove(s.charAt(l));
